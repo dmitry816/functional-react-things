@@ -11,7 +11,7 @@ class AddColorForm extends Comment {
   submit(e) {
     const {_title, _color} = this.refs
     e.preventDefault();
-    alert(`new color: ${_title.value} ${_color.value}`)
+    this.props.onNewColor(`${_title.value} ${_color.value}`)
     _title.value = '';
     _color.value = '#000000';
     _title.focus();
