@@ -1,8 +1,6 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-class AddColorForm extends Comment {
+class AddColorForm extends React.Component {
   constructor(props) {
     super(props)
     this.submit = this.submit.bind(this)
