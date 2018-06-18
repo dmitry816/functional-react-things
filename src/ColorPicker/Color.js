@@ -1,5 +1,6 @@
 import {Start} from './Star';
-import {StarRating} from './StarRating'
+import {StarRating} from './StarRating';
+import ColorList from './ColorList';
 
 export class Color extends React.Component { 
     
