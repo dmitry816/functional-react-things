@@ -11,6 +11,7 @@ describe('color Reducer', () => {
             timeStamp: new Date().toString()
         }
         const result = color(state, action)
+
         expect(results)
             .toEqual({
                 type: 'ADD_COLOR',
@@ -36,6 +37,7 @@ describe('color Reducer', () => {
             rating: 3
         }
         const  result = color(state, action)
+
         expect(results)
             .toEqual({
                 id: 0,
